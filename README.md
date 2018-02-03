@@ -5,8 +5,6 @@ Copyright © password_manager Project Contributors.
 
 ## Project details
 [![license](https://img.shields.io/pypi/l/spyder.svg)](./LICENSE)
-[![pypi version](https://img.shields.io/pypi/v/spyder.svg)](https://pypi.python.org/pypi/spyder)
-
 
 ## Build status
 
