@@ -1,0 +1,12 @@
+# Compiled python files
+*.py[oc]
+
+# IDE
+.idea
+
+# Pyinstaller
+build/
+dist/
+bin/
+*.spec
+
