@@ -20,6 +20,33 @@ password_manager is A lightweight password manager
 ## Documentation
 
 
+## Data Stream
+
+	(salt)[local]   (ruler)
+		\ 		      /
+		 \		     /
+		  \			/
+		  +----------+
+		  | password |
+		  +----------+
+			   ||
+			   ||
+		   (encoding)
+			   ||
+			   ||
+	   +---------------+			 		   	 	  +---------------+
+	   |secret password|[local]<======(back up)======>|secret password|[cloud]
+	   +---------------+					   		  +---------------+
+			   ||
+			   ||
+		   (decoding)
+			   ||
+			   ||
+		  +----------+
+		  | password |[GUI]
+		  +----------+
+			
+
 ## Installation
 
 
